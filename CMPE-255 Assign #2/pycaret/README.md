@@ -1,39 +1,63 @@
-This repository holds the code and datasets used in a series of data science tasks. The tasks range from classification, both binary and multiclass, regression, clustering, to anomaly detection.
+This repository contains code and data for various data science tasks as part of an assignment. Here's an overview of what was done for each task:
 
-Tasks Overview
-1. Classification
-a. Binary Classification - Level
-Utilized PyCaret for binary classification on a dataset.
-Data cleaning, missing value handling, and preparation were conducted.
-The data was divided into training and test sets.
-Multiple models were trained to predict binary targets.
-Objective: Predicted the 'GDP_Class' which is a binary classification based on GDP levels.
-Google Colab Link
-b. Multiclass Classification - Level
-Adapted the binary classification to handle multiple classes.
-Utilized PyCaret for data preparation and model training.
-Predicted a target variable that had several classes.
-Evaluated the models using varied metrics.
-Objective: Predicted the 'GDP_Category', a multiclass classification based on GDP categories with multiple classes.
-Google Colab Link
-2. Regression
-Employed PyCaret for regression analysis on a dataset.
-Addressed data preprocessing challenges like handling missing data and encoding categorical data.
-Partitioned the data into training and test sets.
-Trained models to predict continuous target values.
-Objective: Predicted 'GDP (current US$)', a regression task based on continuous GDP values.
-Google Colab Link
-3. Clustering
-Explored clustering techniques with PyCaret.
-Data was grouped into clusters employing clustering algorithms.
-Visualization of the clusters was performed, followed by an analysis of their characteristics.
-Objective: The task was feature-centric, without a particular target variable.
-Google Colab Link
-4. Anomaly Detection
-Investigated anomaly detection using PyCaret.
-The primary focus was to pinpoint anomalous data points within the dataset.
-Objective: Identified anomalies or outliers based on various dataset features.
-Google Colab Link
-Summary
-This README provides a concise, informal overview of the tasks and objectives of the assignment.
+Tasks: Classification
+Binary Classification - Level:
+
+Used the PyCaret library to predict binary outcomes on a dataset.
+Cleaned the data, handled missing values, and prepared it for modeling.
+Split the data into training and testing sets.
+Trained multiple models to predict binary targets.
+Multiclass Classification - Level:
+
+Expanded the binary classification task to work with multiple classes.
+Employed PyCaret for data prep and model training.
+Predicted a target variable with several classes.
+Evaluated model performance using different metrics.
+Regression:
+
+Used PyCaret for regression analysis on a dataset.
+Handled data preprocessing tasks such as dealing with missing data and encoding categorical features.
+Split the data into training and testing sets.
+Trained and evaluated regression models to predict continuous target values.
+Clustering:
+
+Explored clustering techniques using PyCaret.
+Grouped data into clusters using clustering algorithms.
+Visualized clusters and analyzed their properties.
+Anomaly Detection:
+
+Explored anomaly detection using PyCaret.
+Focused on identifying unusual data points (anomalies) within the dataset based on various features.
+Investigated time series forecasting using PyCaret.
+Split time series data into training and testing sets.
+Trained forecasting models for univariate and univariate with exogenous variables scenarios.
+Corresponding Targets or Objectives:
+
+Classification:
+
+Binary Classification - Level:
+
+Predicted 'GDP_Class' - Binary classification based on GDP classification.
+Multiclass Classification - Level:
+
+Predicted 'GDP_Category' - Multiclass classification based on GDP category with multiple classes.
+Regression:
+
+Predicted 'GDP (current US$)' - Regression based on the continuous GDP values.
+Clustering:
+
+The clustering task was feature-based, and no specific target variable was used.
+Anomaly Detection:
+
+The goal was to identify anomalies or outliers in the dataset based on various features.
+This description provides a more informal summary of the tasks and objectives.
+
+Anomaly detection:
+https://colab.research.google.com/drive/1k0rWaXlISyMuimhnsQOUksAT4aodf0Wn?usp=sharing
+
+Classification: Binary classification, Multiclass, Regression:
+https://colab.research.google.com/drive/1k0rWaXlISyMuimhnsQOUksAT4aodf0Wn?usp=sharing
+
+Clustering:
+https://colab.research.google.com/drive/1h5wunFhz_MyOtq7gibwJUfY_1vcaJ5hc?usp=sharing
 
